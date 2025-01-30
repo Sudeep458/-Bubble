@@ -20,18 +20,18 @@ function getRandomColor() {
 
 // Circle properties
 const circle = {
-    x: 100,  // Position from left
-    y: canvas.height / 2,  // Vertically centered
+    x: 100,  
+    y: canvas.height / 2,  
     radius: 45,
     color: getRandomColor()
 };
 
 // Arrow properties
 const arrow = {
-    x: canvas.width - 100,  // Position from right
-    y: canvas.height / 2,   // Vertically centered
-    length: 50,             // Length of arrow shaft
-    headSize: 15,          // Size of arrow head
+    x: canvas.width - 100, 
+    y: canvas.height / 2,   
+    length: 50,             
+    headSize: 15,          
     color: '#333333'
 };
 
